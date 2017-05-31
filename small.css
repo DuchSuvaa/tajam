@@ -153,6 +153,8 @@ footer div#footerMain {
       float: left;
       padding-right: 5%;
       margin-bottom: 0; }
+  footer div#footerMain div#touch {
+    width: 80%; }
 
 p.studio {
   margin-bottom: 3px !important; }

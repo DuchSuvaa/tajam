@@ -469,7 +469,7 @@ footer {
       footer div#footerMain div.col h4 {
         margin-bottom: 40px; }
       footer div#footerMain div.col input#subscribe {
-        width: 70%;
+        width: 73%;
         border: 1px solid #9f98b1;
         box-sizing: border-box;
         margin-top: -4px;
@@ -489,6 +489,7 @@ footer {
         background: #a19ab4 url("images/footer/pointer.png") no-repeat center; }
       footer div#footerMain div.col div#social {
         width: 100%;
+        max-width: 250px;
         height: 35px;
         display: flex;
         flex-flow: row no-wrap;
