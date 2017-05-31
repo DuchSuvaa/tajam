@@ -1,0 +1,163 @@
+.opeNav {
+  max-height: 900px !important; }
+
+#menuHide {
+  display: block;
+  background-color: #312B50; }
+
+ul#hamburger {
+  color: white;
+  display: block;
+  line-height: 2em;
+  width: 90px;
+  font-size: 1.2em;
+  position: relative; }
+  ul#hamburger a, ul#hamburger a:visited, ul#hamburger a:link, ul#hamburger a:hover {
+    color: white;
+    text-decoration: none; }
+  ul#hamburger i {
+    position: relative;
+    top: 6px; }
+
+#navigation {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #312B50;
+  transition: max-height 1s ease-out; }
+  #navigation ul {
+    display: flex;
+    flex-direction: column; }
+  #navigation li {
+    display: block;
+    margin-bottom: 0.3em;
+    font-size: 0.875em; }
+
+div#head {
+  margin-top: 90px; }
+
+div#about div#insideAbout {
+  margin-top: 10px;
+  background: url("images/logo-large.png") no-repeat top center;
+  padding: 200px 0 0 0; }
+
+div#expertise div#insideExpertise {
+  margin-bottom: 15%; }
+  div#expertise div#insideExpertise div.exp {
+    width: 50%; }
+  div#expertise div#insideExpertise div.exp:nth-child(3) {
+    margin-top: 1px; }
+
+div#team {
+  background: url("images/background_trees-1.png") no-repeat bottom left;
+  background-color: #352D55; }
+  div#team div#insideTeam {
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    div#team div#insideTeam div.teamember {
+      width: 42%;
+      margin: 2em 0 0; }
+    div#team div#insideTeam div.teamember:first-child {
+      margin-left: 0; }
+
+div#works div#worksHead h4 {
+  width: 100%;
+  text-align: center;
+  margin-left: 0; }
+div#works div#worksHead a#dribble, div#works div#worksHead #dribble:hover, div#works div#worksHead #dribble:visited, div#works div#worksHead #dribble:link {
+  width: 100%;
+  text-align: center;
+  margin-right: 0;
+  margin-top: -50px; }
+div#works div#squareCont div#squares div.square {
+  width: 32%; }
+div#works div.outline {
+  margin: 3.5% auto 15%; }
+
+div#quote {
+  height: 500px;
+  justify-content: space-around; }
+  div#quote div.q {
+    margin-top: 7%;
+    width: 92%;
+    min-height: 255px;
+    height: auto; }
+  div#quote img.quoteMark {
+    display: none; }
+  div#quote p.cytat {
+    position: static;
+    transform: none; }
+  div#quote h3 {
+    margin-top: 20px;
+    position: static;
+    bottom: 20px;
+    transform: none; }
+  div#quote p#who {
+    position: static;
+    bottom: 0;
+    transform: none; }
+  div#quote div img {
+    width: 40px;
+    height: 40px; }
+  div#quote div img.big {
+    width: 60px;
+    height: 60px; }
+  div#quote div#twarze {
+    width: 300px;
+    position: static;
+    margin-bottom: 5%;
+    transform: none; }
+
+div#clients div#insideClients {
+  width: 100%; }
+  div#clients div#insideClients div#clientsForm {
+    width: 95%; }
+
+div#clients div#insideClients div#clientsLogos {
+  width: 100%;
+  max-width: 370px; }
+  div#clients div#insideClients div#clientsLogos div#logos div {
+    width: 42%;
+    margin: 0 3%; }
+
+footer div#footerMain {
+  flex-flow: row wrap;
+  justify-content: center; }
+  footer div#footerMain p {
+    line-height: 18px; }
+  footer div#footerMain h4 {
+    display: none; }
+  footer div#footerMain div.col {
+    height: 250px;
+    margin-top: 0;
+    width: 45%;
+    max-width: 300px;
+    padding: 0 5px;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 2% 0; }
+    footer div#footerMain div.col input#subscribe {
+      height: 35px; }
+    footer div#footerMain div.col input#point {
+      height: 35px; }
+  footer div#footerMain div#help {
+    margin-top: 5px;
+    max-width: 420px; }
+    footer div#footerMain div#help img {
+      float: left;
+      padding-right: 5%;
+      margin-bottom: 0; }
+
+p.studio {
+  margin-bottom: 3px !important; }
+
+ul#terms li:nth-child(2) {
+  order: 1; }
+
+/*# sourceMappingURL=small.css.map */
