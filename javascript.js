@@ -31,11 +31,14 @@ $(function() {
 	});
 
 	$(".butTeam").click(function(evt) {
-		var lewy = $("#prev");
-		var prawy = $("#next");
+		// var lewy = $("#prev");
+		// var prawy = $("#next");
 		
 		if ( $("#prev").css('visibility') == 'hidden') {
 			$("#prev").css("visibility", "visible");			
+		}
+		if ( $("#next").css('visibility') == 'hidden') {
+			$("#next").css("visibility", "visible");			
 		}
 		if ($(this).attr("id") == "prev") {
 			var enlargeNext = parseInt($(".big").attr("id").substring(4,5)) - 1;
@@ -49,6 +52,8 @@ $(function() {
 		var bigOne = $(".big").attr("id").substring(4,5);
 		if (bigOne == 1) {
 			$("#prev").css("visibility", "hidden");
+		} else if (bigOne == 5) {
+			$("#next").css("visibility", "hidden");
 		}
 		var tekst = "#q" + bigOne;
 		$(".aktualny").addClass("invisible");
