@@ -3,7 +3,7 @@
 
 #menuHide {
   display: block;
-  background-color: #312B50; }
+  background-color: transparent; }
 
 ul#hamburger {
   color: white;
@@ -28,6 +28,7 @@ ul#hamburger {
   top: 100%;
   left: 0;
   background-color: #312B50;
+  border-radius: 5%;
   transition: max-height 1s ease-out; }
   #navigation ul {
     display: flex;
@@ -161,5 +162,9 @@ p.studio {
 
 ul#terms li:nth-child(2) {
   order: 1; }
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+  div#clientsLogos div#logos div {
+    width: 40%; } }
 
 /*# sourceMappingURL=small.css.map */
