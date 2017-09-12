@@ -1,5 +1,7 @@
 $(function() {
 
+	// head section info
+
 	setInterval(function () {
 		var current = $(".current");
 		var next = parseInt(current.attr('id').substring(9, 10)) + 1;
@@ -23,17 +25,16 @@ $(function() {
 	  	$(".activeDot").removeClass("activeDot");
 	  	$(this).addClass("activeDot");
 	  	var idDot = $(".current").attr("id");
-		$("#" + idDot).removeClass("current");
-		$("#" + idDot).addClass("invisible");
+		$("#" + idDot).removeClass("current").addClass("invisible");;
 		var numer = "#headSlide" + $(this).attr("id").substring(3,4);
 		var x = "#" + $(numer).attr("id");
 		$(x).removeClass("invisible").addClass("current");
 	});
 
-	$(".butTeam").click(function(evt) {
-		// var lewy = $("#prev");
-		// var prawy = $("#next");
-		
+	// change quotes on arrow click
+
+	$(".butTeam").click(function() {
+
 		if ( $("#prev").css('visibility') == 'hidden') {
 			$("#prev").css("visibility", "visible");			
 		}
@@ -58,9 +59,11 @@ $(function() {
 		var tekst = "#q" + bigOne;
 		$(".aktualny").addClass("invisible");
 		$(tekst).addClass("aktualny");
-		$(tekst).removeClass("invisible");
+		$(tekst).removeClass("invisible");	
+
 	});
 
+	// toggle menu dropdown
 		
 	$("#menuHide").click(function(evt) {
 		$('#navigation').toggleClass('opeNav');
